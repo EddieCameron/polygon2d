@@ -1,0 +1,17 @@
+{
+    "name": "Polygon2D-Editor",
+    "references": [
+        "GUID:61487c0249700496ba42b64ee90e8e53"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
