@@ -97,13 +97,12 @@ namespace Polygon2D {
             if ( !Bounds.Contains( point ) )
                 return false;
 
-            return GetWindingNumber( point ) > 0;
+            return GetWindingNumber( point ) != 0;
         }
 
         /// <summary>
         /// How many times does the shape "wind" around this point
         /// - 0 means point is outside shape
-        /// >= 1 is inside
         /// </summary>
         /// <param name="point"></param>
         /// <returns></returns>
